@@ -1,0 +1,357 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fef9e7;
+}
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding:0;
+}
+
+.button_1 {
+    height: 38px;
+    background: #c0392b;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+/*Header*/
+header {
+    background:  #A7B0B9;
+    color: #ffffff;
+    padding-top:10px;
+    min-height: 70px;
+    border-bottom: #c0392b 7px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding {
+    float: left;
+    margin-bottom: 0;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header #branding h2 {
+	float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight {
+    color: #c0392b;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: Monotype Corsiva, Arial, Helvetica;
+} 
+
+header .current a {
+    color: #c0392b;
+    font-weight: bold;
+} 
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+#showcase {
+    min-height: 400px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background: url('bigger_blue-lit keyboard.jpg') no-repeat center;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase h1 {
+    margin-top: 135px;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+#skillset {
+    padding: 15px;
+    color: #ffffff;
+    background: #A7B0B9;
+    padding-bottom: 0px;
+	align-items: center;
+}
+
+#skillset .box {
+    float: none;
+    text-align: center;
+    width: 22%;
+    padding: 0px;
+	display: inline-block;
+	margin:auto;
+	align-items: center;
+
+}
+
+#skillset .box img {
+    max-height: 40px;
+	
+}
+
+/* boxes */
+#boxes {
+    margin: 0px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 45%;
+    padding: 10px;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #c0392b;
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+	
+	#skillset .box,
+	#skillset .box img,
+	#boxes .box,
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	header {
+		padding-bottom: 10px;
+		padding-top: 0px;
+	}
+	
+	#showcase {
+		min-height: 200px;
+	}
+	
+	#showcase h1 {
+		font-size: 30px;
+		margin-top: 70px;
+	}
+	header .highlight{
+		font-family: Monotype Corsiva, Arial, Helvetica;
+		font-size: 30px;
+		float: left;		
+	}
+	header #branding h2 {
+		font-size: 12px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 20px;
+		padding-left: 10px;
+		margin: 0px;
+	}
+	header nav {
+		float: right;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 0px;
+		width: auto;
+		overflow: hidden;		
+	}
+		
+	header ul {
+		float: right;
+		overflow: hidden;
+	}
+		
+	header li {
+		float: none;
+		display: inline-block;
+		padding: 0px 10px;
+	}
+	
+	body {
+		font: Georgia, Helvetica, sans-serif;
+	}
+	
+	#skillset {
+		width: auto;
+		align-items: center;
+	}
+	
+	#skillset .box {
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	
+	#skillset h3 {
+		font-size: 8px;
+	}
+	
+	#boxes {
+		padding-bottom: 0px;
+		margin-bottom: -20px;
+	}
+	
+	#boxes .box {
+		font-size: 14px;
+    	float: left;
+    	text-align: center;
+    	width: 50%;
+    	padding: 0px;
+	}
+	
+	#boxes img {
+		padding: 0px;
+		margin-top: 10px;
+		margin-bottom: -20px;
+		max-width: 80px;
+		max-height: auto;
+	}
+}
+	
+/* Media Queries */
+@media(max-width : 371.222px ){
+	header nav,
+	header nav li,
+	#skillset .box,
+	#skillset .box img,
+	#boxes .box,
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	header {
+		padding-bottom: 10px;
+		padding-top: 0px;
+	}
+	
+	#showcase h1 {
+		font-size: 30px;
+		margin-top: 70px;
+	}
+	header .highlight{
+		font-family:  Monotype Corsiva, Arial, Helvetica;
+		font-size: 30px;
+		float: left;		
+	}
+	header #branding h2 {
+		font-size: 12px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 20px;
+		padding-left: 10px;
+		margin: 0px;
+	}
+	header nav {
+		float: left;
+		margin-top: 10px;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: auto;
+		overflow: hidden;
+		width:auto;	
+		
+	}
+		
+	header ul {
+		float: none;
+		padding: 0px;
+		overflow: visible;
+		margin: auto;
+	}
+	
+	header li {
+		float: none;
+		display: inline-block;
+		padding: 0px 0px;
+	}
+	
+	body {
+		font: Georgia, Helvetica, sans-serif;
+	}
+	
+	#skillset {
+		max-width: 100%;
+		align-items: center;
+		overflow: hidden;
+		
+	}
+	
+	#skillset .box {
+		float: left;
+		text-align: center;
+		display: inline-block;
+		
+	}
+	
+	#skillset h3 {
+		font-size: 8px;
+		text-align: center;
+	}
+	
+	#boxes {
+		padding-bottom: 0px;
+		margin-bottom: -20px;
+	}
+	
+	#boxes .box {
+		font-size: 14px;
+    	float: left;
+    	text-align: center;
+    	width: 50%;
+    	padding: 0px;
+	}
+	
+	#boxes img {
+		padding: 0px;
+		margin-top: 10px;
+		margin-bottom: -20px;
+		max-width: 80px;
+		max-height: auto;
+	}
+}
+	
